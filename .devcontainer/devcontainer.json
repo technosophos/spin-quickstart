@@ -12,7 +12,7 @@
 	"remoteEnv": {
 		// We want to set the $PATH to the location of spin
 		// https://docs.github.com/en/enterprise-cloud@latest/codespaces/developing-in-codespaces/default-environment-variables-for-your-codespace
-		"PATH": "/workspaces/${localEnv:CODESPACE_VSCODE_FOLDER}/bin:${localEnv:PATH}"
+		"PATH": "/workspaces/spin-quickstart/bin:${localEnv:PATH}"
 	},
 	"customizations": {
 		"codespaces": {
