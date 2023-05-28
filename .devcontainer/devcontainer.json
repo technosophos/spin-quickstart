@@ -10,7 +10,9 @@
 		}
 	},
 	"remoteEnv": {
-		"PATH": "${localEnv:HOME}/bin:${localEnv:PATH}"
+		// We want to set the $PATH to the location of spin
+		// https://docs.github.com/en/enterprise-cloud@latest/codespaces/developing-in-codespaces/default-environment-variables-for-your-codespace
+		"PATH": "/workspaces/${localEnv:CODESPACE_NAME}/bin:${localEnv:PATH}"
 	},
 	"customizations": {
 		"codespaces": {
