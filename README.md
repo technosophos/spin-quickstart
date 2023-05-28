@@ -47,9 +47,9 @@ cd hello-js
 
 In this directory, you should see a standard JS app. Note that this is _not_ a NodeJS app. It is a serverless function that will run inside of Spin.
 
-The `src/index.js` file is the one we will work with.
+The `src/index.js` file is the one we will work with. You can open the code and edit away. One easy change you can do is change the `body` to say something different.
 
-And `spin.toml` is the Spin configuration file. No need to do anything with that right now.
+The `spin.toml` is the Spin configuration file. No need to do anything with that right now. But it is the one and only special Spin file. The rest is all run-of-the-mill.
 
 Once you're done editing the `index.js` file, run `spin build` to fetch dependencies from NPM and then build the WebAssembly package from your app:
 
