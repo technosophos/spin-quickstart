@@ -22,11 +22,11 @@ Then `cd` into the directory we just created:
 cd hello-js
 ```
 
-The `src/main.js` file is the one we will work with.
+The `src/index.js` file is the one we will work with.
 
 And `spin.toml` is the Spin configuration file. No need to do anything with that right now.
 
-Once you're done editing the `main.js` file, run:
+Once you're done editing the `index.js` file, run:
 
 ```bash
 spin build
