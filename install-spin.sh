@@ -1,7 +1,7 @@
 # This just speeds up the curl/bash install.
 export PATH=$PWD/bin:$PATH
 # Because of the container setup, we need this installed by root
-sudo npm install -D webpack-cli
+sudo npx install -D webpack-cli
 
 # Now  we do the basic Spin installation
 mkdir bin -p
