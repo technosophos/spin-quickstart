@@ -80,6 +80,10 @@ At this point you should have a running app and a configured development environ
 
 If you'd like to chat with us, [join our Discord server](https://discord.gg/AAFNfS7NGf). We love to talk Spin, WebAssembly, and serverless.
 
+## Working with Your Codespace
+
+At this point, your  Codespace should be available at [https://github.com/codespaces](https://github.com/codespaces). You can launch, stop, and delete your codespace from there.
+
 ## Beyond JavaScript
 
 This repo is intended for JS/TS. You can use other languages like Rust or Go, but you will need to use the terminal to install your desired toolchain.
