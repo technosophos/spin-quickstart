@@ -65,7 +65,7 @@ Once you're done editing the `index.js` file, run `spin build` to fetch dependen
 spin build
 ```
 
-> For some reason, webpack-cli is not working the first time it is run. So the first `spin build` may fail. Subsequent builds work fine, though.
+> If you haven't already run `npm install`, webpack-cli might not work the first time it is run. So the first `spin build` may fail. Subsequent builds work fine, though.
 
 And from there, we can deploy to Fermyon Cloud.
 
