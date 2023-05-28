@@ -1,5 +1,7 @@
 # Matt's Quickstart Codespace for Spin
 
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/technosophos/spin-quickstart)
+
 This is a simple template for getting started with GitHub Codespaces and [Spin](https://developer.fermyon.com/spin). It's designed for JavaScript or TypeScript Spin apps.
 
 This repo follows the same path as the [Spin Quickstart](https://developer.fermyon.com/spin/quickstart), but I automated the installation steps.
