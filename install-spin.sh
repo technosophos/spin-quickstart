@@ -12,4 +12,4 @@ chmod 700 install.sh
 ./spin plugins install js2wasm --yes
 
 # webpack-cli is a little peculiar, so we install it ahead of time
-npm install -D webpack-cli
+# npm install -D webpack-cli
