@@ -32,6 +32,8 @@ Once you're done editing the `index.js` file, run:
 spin build
 ```
 
+> For some reason, webpack-cli is not working the first time it is run. So the first `spin build` may fail. Subsequent builds work fine, though.
+
 And from there, we can deploy to Fermyon Cloud.
 
 ```bash
@@ -39,6 +41,8 @@ spin deploy
 ```
 
 The first time we do this, it'll walk us through the process of initializing Fermyon Cloud. Once it's done, we'll have a publicly available URL to try.
+
+You can also use `spin up` or `spin build --up` in Codespaces to start an instance on the Codespaces server.
 
 ## For JavaScript and TypeScript
 
